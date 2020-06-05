@@ -1,0 +1,176 @@
+<html>
+<head>
+    <!-- <p style="margin-top:20px;"> -->
+    <title>20192004 Yejin Ku resume</title>
+    <style>
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+
+        div {
+            padding: 20px;
+            border: 4px;
+            border-style: solid;
+            display: block;
+            margin-top: 20px;
+            background-color: beige;
+            color: green;
+
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <br>
+    <img src="yj photo.jpg" width="180"> 
+
+    <b>
+        <h2><font color="brown">Name: Yejin Ku</font></h2>
+    </b>
+    <br>
+
+    <h2>
+        <font color="brown">kookmin univ. forest&biotechnology. sophomore<br>Age: 21<br>Contact: 01095697590</font>
+    </h2>
+
+    <ol>
+        <li><a href="1.html">PART-TIME JOB EXPERIENCE</a></li>
+        <li><a href="1.html">EDUCATION</a></li>
+        <li><a href="1.html">LANGUAGE</a></li>
+    </ol>
+
+    <div>
+        <h5>> PART-TIME JOB EXPERIENCE :
+            
+        <br>
+        <button id='btn1'>-2019.1.~2019.3.: paris baguette</button>
+        <br>
+
+        <p id='text1' class='text'>
+            My first part-time job. The store was too big to work for the first time.
+            I learned how to wrap bread, how to pay and so on.
+        </p>
+
+        <br>
+        <button id='btn2'>-2019.4.~2019.5.: hot bread</button>
+        <br>
+
+        <p id='text2' class='text'>
+            I almost wrapped bread, and sold them by using exprience of paris baguette.
+        </p>
+
+        <br>
+        <button id='btn3'>-2019.5.~2019.6.: pc cafe</button>
+        <br>
+
+        <p id='text3' class='text'>
+            Here, I simply cooked, wash the dishes, clean the keyboards.
+        </p>
+        
+        <br>
+        <button id='btn4'>-2019.12.23~2019.12.27: restaurant</button>
+        <br>
+
+        <p id='text4' class='text'>
+            serving
+        </p>
+
+        <br>
+        <button id='btn5'>-2020.1.~2020.2.: pizza maker</button>
+        <br>
+
+        <p id='text5' class='text'>
+            making pizza
+        </p>
+
+        <br>
+        <button id='btn6'>-2020.2.~now: paris baguette</button>
+
+        <script type='text/javascript'>
+            window.onload = function () {
+
+                var btn1 = document.getElementById('btn1');
+                var btn2 = document.getElementById('btn2');
+                var btn3 = document.getElementById('btn3');
+                var btn4 = document.getElementById('btn4');
+                var btn5 = document.getElementById('btn5');
+
+                var text1 = document.getElementById('text1');
+                var text2 = document.getElementById('text2');
+                var text3 = document.getElementById('text3');
+                var text4 = document.getElementById('text4');
+                var text5 = document.getElementById('text5');
+
+                text1.style.display = 'none';
+                text2.style.display = 'none';
+                text3.style.display = 'none';
+                text4.style.display = 'none';
+                text5.style.display = 'none';
+
+                btn1.addEventListener('click', function () {
+                    if (text1.style.display === 'none') {
+                        text1.style.display = 'block';
+                    } else {
+                        text1.style.display = 'none';
+                    }
+                });
+
+                btn2.addEventListener('click', function () {
+                    if (text2.style.display === 'none') {
+                        text2.style.display = 'block';
+                    } else {
+                        text2.style.display = 'none';
+                    }
+                });
+
+                btn3.addEventListener('click', function () {
+                    if (text3.style.display === 'none') {
+                        text3.style.display = 'block';
+                    } else {
+                        text3.style.display = 'none';
+                    }
+                });
+
+                btn4.addEventListener('click', function () {
+                    if (text4.style.display === 'none') {
+                        text4.style.display = 'block';
+                    } else {
+                        text4.style.display = 'none';
+                    }
+                });
+
+                btn5.addEventListener('click', function () {
+                    if (text5.style.display === 'none') {
+                        text5.style.display = 'block';
+                    } else {
+                        text5.style.display = 'none';
+                    }
+                });
+            }
+        </script>
+    </div>
+
+    <p>
+        <div>
+            <br>
+            <h5>> EDUCATION :
+                <br>
+                <br>-2007~2012: Jungpyeong elementary school
+                <br>-2013~2015: Jungpyeong middle school
+                <br>-2016~2018: Daejin girls' high school
+            </h5>
+        </div>
+    </p>
+
+    <p>
+        <div>
+            <br>
+            <h5>> LANGUAGE:
+                <br>-Japanese
+                <br>-English
+            </h5>
+        </div>
+    </p>
+</html>
